@@ -11,9 +11,8 @@ metadata-files:
   - _design/defaults.yml
 
 website:
-  title: "Your Name"
-  description: "A student website about research, work, and the world beyond class."
-  # Later, when published, uncomment and replace the address below.
+  title: "Juliana Santucci"
+  description: "An undergraduate politcal science student with an applied data analysis minor" # Later, when published, uncomment and replace the address below.
   # site-url: "https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/"
   navbar:
     left:

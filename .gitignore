@@ -1,13 +1,12 @@
+text
 /.quarto/
-
 **/*.quarto_ipynb
-
 /.luarc.json
 .Rproj.user
-
-# Local RStudio state; docs/ is intentionally tracked for GitHub Pages.
+# Local RStudio state
 .Rhistory
 .RData
 .DS_Store
-# Optional local preview of the guide; GitHub displays README.md directly.
 /README.html
+# Ignore hidden Quarto project configuration cache, but keep the website pages
+docs/.quarto/
