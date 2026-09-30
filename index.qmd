@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Juliana Santucci"
 body-classes: home-page
 page-layout: full
 ---
@@ -10,7 +10,7 @@ page-layout: full
 ::: {.hero-copy}
 [STUDENT / RESEARCHER / EXPLORER]{.eyebrow}
 
-# Your Name {.display-name}
+# Juliana Santucci {.display-name}
 
 [Making sense of the social world.]{.hero-subtitle}
 
