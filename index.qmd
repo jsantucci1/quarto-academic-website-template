@@ -14,14 +14,14 @@ page-layout: full
 
 [Making sense of the social world.]{.hero-subtitle}
 
-I'm an undergraduate interested in people, politics, and what we can learn from data. This is a place for my projects, the questions I'm working through, and a few notes from beyond the classroom.
+I am an LMU undergraduate student majoring in political science with a focus on applied data analysis. I'm originally from Oakland, CA and I aspire to attend law school after graduating from Loyola Marymount University. 
 
-[Explore my research](research.qmd){.primary-link} [Say hello](mailto:you@example.com){.quiet-link}
+[Explore my research](research.qmd){.primary-link} [Say hello](mailto:jsantucc@lion.lmu.edu){.quiet-link}
 :::
 
 ::: {.hero-photo}
 <!-- Replace images/profile.jpg with your photo. Update the description in fig-alt too. -->
-![](images/profile.jpg){fig-alt="Orange flowers, a sample image for this personal website."}
+![](images/profile.jpg){fig-alt="Photo of Juliana"}
 :::
 ::::
 
@@ -29,20 +29,20 @@ I'm an undergraduate interested in people, politics, and what we can learn from 
 ::: {.home-note}
 [01 / IN THE CLASSROOM]{.eyebrow}
 
-## Questions worth asking
+## Research Focus
 
-How do the places we live shape our opportunities? I'm learning to turn broad questions into small, careful research projects.
+ I am interested in learning more about the issue of gun control and the rise of gun violence in the United States.  
 
-[Academic interests & research](research.qmd)
+
 :::
 
 ::: {.home-note}
 [02 / BEYOND THE CLASSROOM]{.eyebrow}
 
-## Learning by noticing
+## Observations
 
-A new place, a good conversation, or a surprising chart can be the start of an idea. I keep those observations in my blog.
+I continue to explore this topic as I travel to new places and write about my experiences. 
 
-[Read my latest notes](blog.qmd)
+
 :::
 ::::

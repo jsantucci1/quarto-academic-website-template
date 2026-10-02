@@ -1,5 +1,5 @@
 ---
-title: "Profession & career"
+title: "Profession & Career"
 subtitle: "The work I've done and the work I'd like to try."
 ---
 
@@ -7,35 +7,31 @@ subtitle: "The work I've done and the work I'd like to try."
 
 ## Where I'd like to go
 
-I'm exploring opportunities that combine research, clear communication, and work with communities. I'm especially interested in learning how evidence informs decisions outside the classroom.
+I am pursuing a pre-law professional career because I am interested in learning how social science informs legal decisions and public policy. 
 
-## Experience
+## Experience & Research
 
-### Student researcher · Course project
+### Student Researcher · Empirical Approaches Course Project
 
-[FALL 2026]{.project-label}
+[FALL 2025]{.project-label}
 
-- Explore a social question using a public dataset.
-- Create a visualization in R and explain the choices behind it.
-- Share code and notes so a classmate can follow the analysis.
+**Project:** *Exploring Gun Control Across the United States* (with J. Villasenor)
+
+- Investigated how state-level citizen ideology and institutional government quality affect the gun control laws that are passed. 
+- Conducted a literature review on how political parties, trust in government, and identity shape what voters care about. 
+- Shifted research from personal opinions toward clear measures of administrative competence to understand how policy outcomes differ across states. 
+- Used official interest group ratings of politicians to analyze state political contexts rather than relying on survey data.
 
 <!-- Add another role or volunteer project here if useful.
      Use a heading for the role, then a date and 2–3 concrete contributions.
      You do not need an internship to have useful experience to share. -->
 
-## Skills I'm building
+## Skills I'm Building
 
-**Research:** turning a broad interest into a focused question, finding sources, and explaining limitations.
+**Empirical Research:** Formulating testable hypotheses and evaluating theoretical limitations of research questions.
 
-**Data:** working with R, making visualizations, and keeping a project organized.
+**Data:** Developing data visualizations in R to clarify complex statistics and identifying limitations within specific datasets. 
 
-**Collaboration:** giving useful feedback, documenting work, and contributing to a shared project.
+**Advocacy:** Partnering on collaborative projects to bring attention to important public issues in order to bridge ideological divides.
 
-## Let's connect
 
-I'm happy to talk about projects, internships, and opportunities to learn.
-
-[Email me](mailto:you@example.com)
-
-<!-- OPTIONAL: add your real LinkedIn address here, or remove this comment. -->
-<!-- OPTIONAL CV: create a files/ folder, add resume.pdf, then use [My resume](files/resume.pdf). -->

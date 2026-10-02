@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "travel.html#niagara-falls",
-    "href": "travel.html#niagara-falls",
-    "title": "Travel & places",
-    "section": "Niagara Falls",
-    "text": "Niagara Falls\nFIELD NOTES / A DIFFERENT PACE\nSome places make it easier to slow down and pay attention. Here, the movement of the water and the scale of the landscape are a reminder to look beyond the frame of a photograph.\nI’m interested in the small details that make a place feel different: how people move through it, where they gather, and what they stop to notice."
+    "objectID": "travel.html#lincoln-memorial",
+    "href": "travel.html#lincoln-memorial",
+    "title": "Travel Across the Nation",
+    "section": "Lincoln Memorial",
+    "text": "Lincoln Memorial\nNOTES / OBSERVATIONS\n\nTraveling to the other side of the country expands your perspective on American politics. Visiting the Lincoln memorial at night and witnessing its sheer enormity reminds me of the foundational democratic ideals of the U.S. government."
   },
   {
     "objectID": "travel.html#what-i-want-to-remember",
     "href": "travel.html#what-i-want-to-remember",
-    "title": "Travel & places",
+    "title": "Travel Across the Nation",
     "section": "What I want to remember",
-    "text": "What I want to remember\n\nThe details that a photograph doesn’t capture.\nA question about the place or the people who live there.\nSomething I would notice differently on a return visit.\n\n\nMore observations on the blog"
+    "text": "What I want to remember\n\nThe immense scale of the monument serves as a physical reminder to zoom out and look at the bigger picture of America’s democracy, especially given the current climate of political polarization."
   },
   {
     "objectID": "posts/learning-from-a-chart.html",
@@ -39,21 +39,21 @@
     "href": "index.html",
     "title": "Juliana Santucci",
     "section": "",
-    "text": "STUDENT / RESEARCHER / EXPLORER\n\n\nMaking sense of the social world.\nI’m an undergraduate interested in people, politics, and what we can learn from data. This is a place for my projects, the questions I’m working through, and a few notes from beyond the classroom.\nExplore my research Say hello"
+    "text": "STUDENT / RESEARCHER / EXPLORER\n\n\nMaking sense of the social world.\nI am an LMU undergraduate student majoring in political science with a focus on applied data analysis. I’m originally from Oakland, CA and I aspire to attend law school after graduating from Loyola Marymount University.\nExplore my research Say hello"
   },
   {
-    "objectID": "index.html#questions-worth-asking",
-    "href": "index.html#questions-worth-asking",
+    "objectID": "index.html#research-focus",
+    "href": "index.html#research-focus",
     "title": "Juliana Santucci",
-    "section": "Questions worth asking",
-    "text": "Questions worth asking\nHow do the places we live shape our opportunities? I’m learning to turn broad questions into small, careful research projects.\nAcademic interests & research"
+    "section": "Research Focus",
+    "text": "Research Focus\nI am interested in learning more about the issue of gun control and the rise of gun violence in the United States."
   },
   {
-    "objectID": "index.html#learning-by-noticing",
-    "href": "index.html#learning-by-noticing",
+    "objectID": "index.html#observations",
+    "href": "index.html#observations",
     "title": "Juliana Santucci",
-    "section": "Learning by noticing",
-    "text": "Learning by noticing\nA new place, a good conversation, or a surprising chart can be the start of an idea. I keep those observations in my blog.\nRead my latest notes"
+    "section": "Observations",
+    "text": "Observations\nI continue to explore this topic as I travel to new places and write about my experiences."
   },
   {
     "objectID": "blog.html",
@@ -65,37 +65,30 @@
   {
     "objectID": "career.html",
     "href": "career.html",
-    "title": "Profession & career",
+    "title": "Profession & Career",
     "section": "",
-    "text": "I’m exploring opportunities that combine research, clear communication, and work with communities. I’m especially interested in learning how evidence informs decisions outside the classroom."
+    "text": "I am pursuing a pre-law professional career because I am interested in learning how social science informs legal decisions and public policy."
   },
   {
     "objectID": "career.html#where-id-like-to-go",
     "href": "career.html#where-id-like-to-go",
-    "title": "Profession & career",
+    "title": "Profession & Career",
     "section": "",
-    "text": "I’m exploring opportunities that combine research, clear communication, and work with communities. I’m especially interested in learning how evidence informs decisions outside the classroom."
+    "text": "I am pursuing a pre-law professional career because I am interested in learning how social science informs legal decisions and public policy."
   },
   {
-    "objectID": "career.html#experience",
-    "href": "career.html#experience",
-    "title": "Profession & career",
-    "section": "Experience",
-    "text": "Experience\n\nStudent researcher · Course project\nFALL 2026\n\nExplore a social question using a public dataset.\nCreate a visualization in R and explain the choices behind it.\nShare code and notes so a classmate can follow the analysis."
+    "objectID": "career.html#experience-research",
+    "href": "career.html#experience-research",
+    "title": "Profession & Career",
+    "section": "Experience & Research",
+    "text": "Experience & Research\n\nStudent Researcher · Empirical Approaches Course Project\nFALL 2025\nProject: Exploring Gun Control Across the United States (with J. Villasenor)\n\nInvestigated how state-level citizen ideology and institutional government quality affect the gun control laws that are passed.\nConducted a literature review on how political parties, trust in government, and identity shape what voters care about.\nShifted research from personal opinions toward clear measures of administrative competence to understand how policy outcomes differ across states.\nUsed official interest group ratings of politicians to analyze state political contexts rather than relying on survey data."
   },
   {
     "objectID": "career.html#skills-im-building",
     "href": "career.html#skills-im-building",
-    "title": "Profession & career",
-    "section": "Skills I’m building",
-    "text": "Skills I’m building\nResearch: turning a broad interest into a focused question, finding sources, and explaining limitations.\nData: working with R, making visualizations, and keeping a project organized.\nCollaboration: giving useful feedback, documenting work, and contributing to a shared project."
-  },
-  {
-    "objectID": "career.html#lets-connect",
-    "href": "career.html#lets-connect",
-    "title": "Profession & career",
-    "section": "Let’s connect",
-    "text": "Let’s connect\nI’m happy to talk about projects, internships, and opportunities to learn.\nEmail me"
+    "title": "Profession & Career",
+    "section": "Skills I’m Building",
+    "text": "Skills I’m Building\nEmpirical Research: Formulating testable hypotheses and evaluating theoretical limitations of research questions.\nData: Developing data visualizations in R to clarify complex statistics and identifying limitations within specific datasets.\nAdvocacy: Partnering on collaborative projects to bring attention to important public issues in order to bridge ideological divides."
   },
   {
     "objectID": "posts/hello-world.html",
@@ -123,27 +116,27 @@
     "href": "research.html",
     "title": "Academic interests & research",
     "section": "",
-    "text": "I’m interested in how people participate in public life, how communities differ, and how data can help us ask better questions about both.\n\nPolitical participation: Who gets involved, and what makes participation easier?\nCities and communities: How do local environments shape everyday choices?\nData and communication: How can a chart make a complex pattern easier to understand?"
+    "text": "As a political science major, I am interested in gun control, which has become an increasingly divisive partisan issue in the United States.\n\nGun violence and gun regulation How do state-level variations in citizen political ideology shape gun control legislation and the threat of gun violence in the U.S.?\nLaw and public policy: How does state-level institutional capacity (government quality and administrative competence) moderate the relationship between ideological preferences and the actual enforcement of gun control laws?\nData and communication: What are the structural limitations and gaps between understanding citizen preferences and actual policy outcomes?"
   },
   {
     "objectID": "research.html#what-im-curious-about",
     "href": "research.html#what-im-curious-about",
     "title": "Academic interests & research",
     "section": "",
-    "text": "I’m interested in how people participate in public life, how communities differ, and how data can help us ask better questions about both.\n\nPolitical participation: Who gets involved, and what makes participation easier?\nCities and communities: How do local environments shape everyday choices?\nData and communication: How can a chart make a complex pattern easier to understand?"
+    "text": "As a political science major, I am interested in gun control, which has become an increasingly divisive partisan issue in the United States.\n\nGun violence and gun regulation How do state-level variations in citizen political ideology shape gun control legislation and the threat of gun violence in the U.S.?\nLaw and public policy: How does state-level institutional capacity (government quality and administrative competence) moderate the relationship between ideological preferences and the actual enforcement of gun control laws?\nData and communication: What are the structural limitations and gaps between understanding citizen preferences and actual policy outcomes?"
   },
   {
     "objectID": "research.html#a-project-im-developing",
     "href": "research.html#a-project-im-developing",
     "title": "Academic interests & research",
     "section": "A project I’m developing",
-    "text": "A project I’m developing\n\nComparing life expectancy across countries\nCOURSE PROJECT · IN PROGRESS\nQuestion. How does life expectancy vary with income across countries in a given year?\nApproach. Use R to explore the historical Gapminder data and make a clearly labeled visualization.\nWhat I’m learning. Choosing the year, scale, and unit of analysis changes what readers can see. An association in a plot is a starting point for questions, not evidence of a causal effect.\nRead a reflection on this project"
+    "text": "A project I’m developing\n\nExploring gun control across the United States\nCOURSE PROJECT · IN PROGRESS\nResearch Question. How does state-level citizen ideology influence gun control laws across the U.S.?\nApproach. Use R to conduct a state-level analysis of gun control to examine the relationship between citizen ideology, state gun control laws, and government quality.\nWhat I’m learning. Running cross-tabulation analyses to discover the association between partisan gun control attitudes and the strength of gun laws, as well as the moderating effect of government quality on this relationship.\n\nRead the full study here: Gun Violence."
   },
   {
-    "objectID": "research.html#what-comes-next",
-    "href": "research.html#what-comes-next",
+    "objectID": "research.html#looking-forward",
+    "href": "research.html#looking-forward",
     "title": "Academic interests & research",
-    "section": "What comes next",
-    "text": "What comes next\nI’d like to compare the same countries over time and consider what these measures leave out."
+    "section": "Looking forward",
+    "text": "Looking forward\nI plan to explore the topic further by analyzing whether gun regulations are effectively implemented and enforced, rather than simply whether strict laws exist, which would better explain the role of government quality in the relationship between ideology and gun policy."
   }
 ]

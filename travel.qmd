@@ -1,26 +1,25 @@
 ---
-title: "Travel & places"
-subtitle: "A few observations from outside my usual routine."
+title: "Travel Across the Nation"
+subtitle: "A few observations from a trip to Washington D.C."
 ---
 
 <!-- TRAVEL: replace the image, location, and short reflection with your own. -->
 
-![](images/travel.jpg){.travel-photo fig-alt="Water flowing over Niagara Falls, surrounded by green trees."}
+![](images/travel.jpg){.travel-photo fig-alt="Lincoln Memorial"}
 
-## Niagara Falls
+## Lincoln Memorial
 
-[FIELD NOTES / A DIFFERENT PACE]{.project-label}
+[NOTES / OBSERVATIONS]{.project-label}
 
-Some places make it easier to slow down and pay attention. Here, the movement of the water and the scale of the landscape are a reminder to look beyond the frame of a photograph.
+- Traveling to the other side of the country expands your perspective on American      politics. Visiting the Lincoln memorial at night and witnessing its sheer enormity reminds me of the foundational democratic ideals of the U.S. government.
 
-I'm interested in the small details that make a place feel different: how people move through it, where they gather, and what they stop to notice.
 
 ## What I want to remember
 
-- The details that a photograph doesn't capture.
-- A question about the place or the people who live there.
-- Something I would notice differently on a return visit.
+- The immense scale of the monument serves as a physical reminder to zoom out and look at the bigger picture of America's democracy, especially given the current climate of political polarization. 
+
+
 
 <!-- Add another place by copying the image and heading pattern above. -->
 
-[More observations on the blog](blog.qmd)
+

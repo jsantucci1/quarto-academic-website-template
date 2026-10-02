@@ -10,3 +10,4 @@ text
 /README.html
 # Ignore hidden Quarto project configuration cache, but keep the website pages
 docs/.quarto/
+.positai

@@ -1,34 +1,33 @@
 ---
 title: "Academic interests & research"
-subtitle: "Questions, small projects, and work in progress."
+subtitle: "Key questions and areas of interest:"
 ---
 
 <!-- RESEARCH: replace these examples with your interests and one course project. -->
 
 ## What I'm curious about
 
-I'm interested in how people participate in public life, how communities differ, and how data can help us ask better questions about both.
+ As a political science major, I am interested in gun control, which has become an increasingly divisive partisan issue in the United States.
 
-- **Political participation:** Who gets involved, and what makes participation easier?
-- **Cities and communities:** How do local environments shape everyday choices?
-- **Data and communication:** How can a chart make a complex pattern easier to understand?
+- **Gun violence and gun regulation** How do state-level variations in citizen political ideology shape gun control legislation and the threat of gun violence in the U.S.?
+- **Law and public policy:** How does state-level institutional capacity (government quality and administrative competence) moderate the relationship between ideological preferences and the actual enforcement of gun control laws? 
+- **Data and communication:** What are the structural limitations and gaps between understanding citizen preferences and actual policy outcomes?
 
 ## A project I'm developing
 
-### Comparing life expectancy across countries
+### Exploring gun control across the United States
 
 [COURSE PROJECT · IN PROGRESS]{.project-label}
 
-**Question.** How does life expectancy vary with income across countries in a given year?
+**Research Question.** How does state-level citizen ideology influence gun control laws across the U.S.?
 
-**Approach.** Use R to explore the historical Gapminder data and make a clearly labeled visualization.
+**Approach.** Use R to conduct a state-level analysis of gun control to examine the relationship between citizen ideology, state gun control laws, and government quality. 
 
-**What I'm learning.** Choosing the year, scale, and unit of analysis changes what readers can see. An association in a plot is a starting point for questions, not evidence of a causal effect.
+**What I'm learning.** Running cross-tabulation analyses to discover the association between partisan gun control attitudes and the strength of gun laws, as well as the moderating effect of government quality on this relationship. 
 
-[Read a reflection on this project](posts/learning-from-a-chart.qmd)
+- Read the full study here: [Gun Violence](Gun%20Violence%20Project.pdf).
 
-## What comes next
+## Looking forward
 
-I'd like to compare the same countries over time and consider what these measures leave out.
+I plan to explore the topic further by analyzing whether gun regulations are effectively implemented and enforced, rather than simply whether strict laws exist, which would better explain the role of government quality in the relationship between ideology and gun policy. 
 
-<!-- OPTIONAL: add a project link with [Project title](https://your-link). -->
