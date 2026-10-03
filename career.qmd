@@ -7,7 +7,7 @@ subtitle: "The work I've done and the work I'd like to try."
 
 ## Where I'd like to go
 
-I am pursuing a pre-law professional career because I am interested in learning how social science informs legal decisions and public policy. 
+I am pursuing a career in law because I am interested in learning how social science informs legal decisions and public policy. 
 
 ## Experience & Research
 
@@ -18,7 +18,7 @@ I am pursuing a pre-law professional career because I am interested in learning 
 **Project:** *Exploring Gun Control Across the United States* (with J. Villasenor)
 
 - Investigated how state-level citizen ideology and institutional government quality affect the gun control laws that are passed. 
-- Conducted a literature review on how political parties, trust in government, and identity shape what voters care about. 
+- Conducted a literature review on how political parties and trust in government shape what voters care about. 
 - Shifted research from personal opinions toward clear measures of administrative competence to understand how policy outcomes differ across states. 
 - Used official interest group ratings of politicians to analyze state political contexts rather than relying on survey data.
 

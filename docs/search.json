@@ -11,7 +11,7 @@
     "href": "travel.html#what-i-want-to-remember",
     "title": "Travel Across the Nation",
     "section": "What I want to remember",
-    "text": "What I want to remember\n\nThe immense scale of the monument serves as a physical reminder to zoom out and look at the bigger picture of America’s democracy, especially given the current climate of political polarization."
+    "text": "What I want to remember\n\nThe immense scale of the monument serves as a physical reminder to zoom out and look at the broader picture of America’s democracy, especially given the current climate of political polarization."
   },
   {
     "objectID": "posts/learning-from-a-chart.html",
@@ -46,14 +46,14 @@
     "href": "index.html#research-focus",
     "title": "Juliana Santucci",
     "section": "Research Focus",
-    "text": "Research Focus\nI am interested in learning more about the issue of gun control and the rise of gun violence in the United States."
+    "text": "Research Focus\n\nI am interested in learning more about the issue of gun control and the prevalence of gun violence in the United States."
   },
   {
     "objectID": "index.html#observations",
     "href": "index.html#observations",
     "title": "Juliana Santucci",
     "section": "Observations",
-    "text": "Observations\nI continue to explore this topic as I travel to new places and write about my experiences."
+    "text": "Observations\n\nI am passionate about traveling to new places and writing about my experiences, which informs my understanding of these political issues."
   },
   {
     "objectID": "blog.html",
@@ -67,21 +67,21 @@
     "href": "career.html",
     "title": "Profession & Career",
     "section": "",
-    "text": "I am pursuing a pre-law professional career because I am interested in learning how social science informs legal decisions and public policy."
+    "text": "I am pursuing a career in law because I am interested in learning how social science informs legal decisions and public policy."
   },
   {
     "objectID": "career.html#where-id-like-to-go",
     "href": "career.html#where-id-like-to-go",
     "title": "Profession & Career",
     "section": "",
-    "text": "I am pursuing a pre-law professional career because I am interested in learning how social science informs legal decisions and public policy."
+    "text": "I am pursuing a career in law because I am interested in learning how social science informs legal decisions and public policy."
   },
   {
     "objectID": "career.html#experience-research",
     "href": "career.html#experience-research",
     "title": "Profession & Career",
     "section": "Experience & Research",
-    "text": "Experience & Research\n\nStudent Researcher · Empirical Approaches Course Project\nFALL 2025\nProject: Exploring Gun Control Across the United States (with J. Villasenor)\n\nInvestigated how state-level citizen ideology and institutional government quality affect the gun control laws that are passed.\nConducted a literature review on how political parties, trust in government, and identity shape what voters care about.\nShifted research from personal opinions toward clear measures of administrative competence to understand how policy outcomes differ across states.\nUsed official interest group ratings of politicians to analyze state political contexts rather than relying on survey data."
+    "text": "Experience & Research\n\nStudent Researcher · Empirical Approaches Course Project\nFALL 2025\nProject: Exploring Gun Control Across the United States (with J. Villasenor)\n\nInvestigated how state-level citizen ideology and institutional government quality affect the gun control laws that are passed.\nConducted a literature review on how political parties and trust in government shape what voters care about.\nShifted research from personal opinions toward clear measures of administrative competence to understand how policy outcomes differ across states.\nUsed official interest group ratings of politicians to analyze state political contexts rather than relying on survey data."
   },
   {
     "objectID": "career.html#skills-im-building",
@@ -116,21 +116,21 @@
     "href": "research.html",
     "title": "Academic interests & research",
     "section": "",
-    "text": "As a political science major, I am interested in gun control, which has become an increasingly divisive partisan issue in the United States.\n\nGun violence and gun regulation How do state-level variations in citizen political ideology shape gun control legislation and the threat of gun violence in the U.S.?\nLaw and public policy: How does state-level institutional capacity (government quality and administrative competence) moderate the relationship between ideological preferences and the actual enforcement of gun control laws?\nData and communication: What are the structural limitations and gaps between understanding citizen preferences and actual policy outcomes?"
+    "text": "As a political science major, I am interested in gun control, which has become an increasingly divisive partisan issue in the United States.\n\nGun violence and gun regulation: How do state-level variations in citizen political ideology shape gun control legislation and the threat of gun violence in the U.S.?\nLaw and public policy: How does state-level institutional capacity (government quality and administrative competence) moderate the relationship between ideological preferences and the actual enforcement of gun control laws?\nData and communication: What are the structural limitations and gaps between understanding citizen preferences and actual policy outcomes?"
   },
   {
     "objectID": "research.html#what-im-curious-about",
     "href": "research.html#what-im-curious-about",
     "title": "Academic interests & research",
     "section": "",
-    "text": "As a political science major, I am interested in gun control, which has become an increasingly divisive partisan issue in the United States.\n\nGun violence and gun regulation How do state-level variations in citizen political ideology shape gun control legislation and the threat of gun violence in the U.S.?\nLaw and public policy: How does state-level institutional capacity (government quality and administrative competence) moderate the relationship between ideological preferences and the actual enforcement of gun control laws?\nData and communication: What are the structural limitations and gaps between understanding citizen preferences and actual policy outcomes?"
+    "text": "As a political science major, I am interested in gun control, which has become an increasingly divisive partisan issue in the United States.\n\nGun violence and gun regulation: How do state-level variations in citizen political ideology shape gun control legislation and the threat of gun violence in the U.S.?\nLaw and public policy: How does state-level institutional capacity (government quality and administrative competence) moderate the relationship between ideological preferences and the actual enforcement of gun control laws?\nData and communication: What are the structural limitations and gaps between understanding citizen preferences and actual policy outcomes?"
   },
   {
     "objectID": "research.html#a-project-im-developing",
     "href": "research.html#a-project-im-developing",
     "title": "Academic interests & research",
     "section": "A project I’m developing",
-    "text": "A project I’m developing\n\nExploring gun control across the United States\nCOURSE PROJECT · IN PROGRESS\nResearch Question. How does state-level citizen ideology influence gun control laws across the U.S.?\nApproach. Use R to conduct a state-level analysis of gun control to examine the relationship between citizen ideology, state gun control laws, and government quality.\nWhat I’m learning. Running cross-tabulation analyses to discover the association between partisan gun control attitudes and the strength of gun laws, as well as the moderating effect of government quality on this relationship.\n\nRead the full study here: Gun Violence."
+    "text": "A project I’m developing\n\nExploring gun control across the United States\nCOURSE PROJECT · IN PROGRESS\nResearch Question: How does state-level citizen ideology influence gun control laws across the U.S.?\nApproach: Use R to conduct a state-level analysis of gun control to examine the relationship between citizen ideology, state gun control laws, and government quality.\nWhat I’m learning: Running cross-tabulation analyses to discover the association between partisan gun control attitudes and the strength of gun laws, as well as the moderating effect of government quality on this relationship.\nRead the full study here: Gun Control"
   },
   {
     "objectID": "research.html#looking-forward",

@@ -9,7 +9,7 @@ subtitle: "Key questions and areas of interest:"
 
  As a political science major, I am interested in gun control, which has become an increasingly divisive partisan issue in the United States.
 
-- **Gun violence and gun regulation** How do state-level variations in citizen political ideology shape gun control legislation and the threat of gun violence in the U.S.?
+- **Gun violence and gun regulation:** How do state-level variations in citizen political ideology shape gun control legislation and the threat of gun violence in the U.S.?
 - **Law and public policy:** How does state-level institutional capacity (government quality and administrative competence) moderate the relationship between ideological preferences and the actual enforcement of gun control laws? 
 - **Data and communication:** What are the structural limitations and gaps between understanding citizen preferences and actual policy outcomes?
 
@@ -19,13 +19,13 @@ subtitle: "Key questions and areas of interest:"
 
 [COURSE PROJECT · IN PROGRESS]{.project-label}
 
-**Research Question.** How does state-level citizen ideology influence gun control laws across the U.S.?
+**Research Question:** How does state-level citizen ideology influence gun control laws across the U.S.?
 
-**Approach.** Use R to conduct a state-level analysis of gun control to examine the relationship between citizen ideology, state gun control laws, and government quality. 
+**Approach:** Use R to conduct a state-level analysis of gun control to examine the relationship between citizen ideology, state gun control laws, and government quality. 
 
-**What I'm learning.** Running cross-tabulation analyses to discover the association between partisan gun control attitudes and the strength of gun laws, as well as the moderating effect of government quality on this relationship. 
+**What I'm learning:** Running cross-tabulation analyses to discover the association between partisan gun control attitudes and the strength of gun laws, as well as the moderating effect of government quality on this relationship. 
 
-- Read the full study here: [Gun Violence](Gun%20Violence%20Project.pdf).
+Read the full study here: [Gun Control](Gun Control Project.pdf)
 
 ## Looking forward
 

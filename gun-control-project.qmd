@@ -1,0 +1,239 @@
+Santucci and Villasenor 1 
+
+Juliana Santucci and Jimena Villasenor 
+
+Professor Crowder 
+
+Empirical Approaches 
+
+7 December 2025 
+
+Exploring Gun Control Across the United States 
+
+_Introduction_ 
+
+Gun violence and gun regulation remain one of the most divisive political issues in the United States. According to a 2024 survey conducted by Pew Research Center, about half of Americans (49%) see gun violence as a major problem (Schaeffer 2024). In this sense, gun control is relevant to political science research, especially given the conservative shift of the NRA and rising polarization of elected officials since 2016 (Ryan et al., 2022). While national debates often focus on partisan conflict in Congress, the majority of the gun policies are implemented at state level and there is widespread variation across states. These differences provide insight into how political contexts shape public policy, laying the foundation for our research question: How does state-level citizen ideology influence gun control laws across the U.S.? 
+
+While there is strong evidence in political science research supporting the role of ideology in determining gun control attitudes, less is known about whether these beliefs lead to policy changes at the state level. By studying the ideological leanings of congressional elites rather than public opinion, our research proposes that gun policy is not simply a product of individual beliefs, but rather reflects a more complex institutional process. This framework implies that understanding gun laws requires examining not only what citizens believe, but also the governmental structures that turn these preferences into law. 
+
+Santucci and Villasenor 2 
+
+In this paper, we investigate the relationship between citizen ideology, state government quality, and enacted gun control laws. Given the high rates of gun violence in our nation, as well as the prevalence of this highly contentious topic in the media, our study aims to explain why some states pass stricter gun control legislation while others do not. Conducting this state-level analysis of gun control will also reveal how political context and institutional capacity work together to shape policy in American federalism. 
+
+_Literature Review_ 
+
+Existing political science scholarship identifies gun control as a fundamentally partisan issue (Pearson-Merkowitz & Dyck, 2017; Lenz 2012). One study found that Democrats and Republicans remain divided on their stances toward gun control, and the policy opinions of strong partisans hold stable despite objective crime statistics or lived experience with gun violence (Pearson-Merkowitz & Dyck, 2017). This finding emphasizes that the agenda-setting of political elites shapes voter priorities, forming predispositions that are resistant to change when new information is presented. Since voters trust the party they identify with, and are constantly exposed to their platforms which set clear preferences, exposure to data regarding gun violence and local violent crime does not majorly impact individuals' deep-seated beliefs about gun control (Pearson-Merkowitz & Dyck, 2017). In this sense, attitudes and perceptions about guns and crime are rooted in identity politics, and individual partisanship influences the ways in which individuals interpret these controversial topics. 
+
+Gabriel Lenz, in his book _Follow the Leader?: How Voters Respond to Politicians’ Policies and Performance_ , further investigates the role of partisanship in driving the political ideology and policy opinions of voters. Lenz reveals that voters pick a preferred political candidate early on in the election process, and adjust their stances on political issues based on 
+
+Santucci and Villasenor 3 
+
+what that candidate or party platform has said (Lenz 2012). This means that even when confronted with highly prominent issues, individuals fail to shift their vote to politicians that more closely align with their policy views. Extending the earlier findings which reported how gun control preferences are formed through political socialization, Lenz’ work provides a strong foundation for understanding the role of partisanship in dictating broader voting patterns. Furthermore, drawing connections between the views of political elites and voter behavior can provide insight into how the ideological composition of a state informs policy outcomes, a guiding force behind our exploration of gun control across the United States. 
+
+More recent research finds that institutional trust plays a key role in moderating gun control attitudes. Ryan et al. (2022) establish that public trust in government significantly influences one’s willingness to support gun regulations, as individuals are more likely to be responsive to restrictions when they believe the government will implement them fairly and effectively. Their analysis reveals that trust matters differently among conservatives and liberals, with the relationship between political beliefs and gun control support depending on the perceived quality of government institutions. Building on this work, Hansen and Seppälä (2024) investigate the interactive relationship between partisanship and trust in the federal government. Their results demonstrate that liberals and conservatives respond differently to gun reform policies depending on their trust in government institutions. For example, when trust is high, ideological differences in gun control attitudes are further polarized, while low levels of trust may prompt a lack of support even among those who are predisposed to favor regulation. Taken together, these studies illustrate that the effect of political ideology on gun control attitudes is contingent on perceptions of government quality. 
+
+Santucci and Villasenor 4 
+
+However, existing research focuses primarily on public trust as an individual-level 
+
+attitude on policy preferences rather than real policy outcomes. Keeping this in mind, we extend prior research by examining government quality as an objective measure of institutional capacity at the state level. While Ryan et al. (2022) and Hansen and Seppälä (2024) analyze how individual perceptions of trust form personal attitudes, we investigate whether actual government quality, measured through administrative competence, moderates the relationship between citizen ideology and enacted gun laws. Reframing trust in terms of institutional performance rather than a subjective perception of public trust is essential as it enables us to examine whether high quality governments are more effective in implementing ideological preferences into policy outcomes. For example, low quality governments may face limitations in their ability to implement policies due to institutional constraints or corruption, even during instances where ideological preferences align. This reality suggests the importance of government quality in determining whether citizen ideology can produce corresponding policy change. 
+
+Taken together, this field of scholarship suggests that political partisanship strongly predicts gun control preferences at the individual level and that trust or government quality affects the strength of these relationships. However, there is still a gap that lies between understanding citizen preferences and state policy outcomes. Previous findings establish why individuals support or oppose gun control, and when their preferences are the strongest, but fail to explain whether these preferences lead to variation in state gun laws. Our research bridges this gap by analyzing gun regulations as the result of citizen ideology, measured by interest group ratings of elected officials rather than self-reported survey responses, therefore revealing the political context in which state legislators operate and make decisions about gun control. 
+
+Santucci and Villasenor 5 
+
+_Theory_ 
+
+Our research is grounded in the principle of representative democracy, a process that upholds the fairness and equality of the U.S. government. According to the _Stanford Encyclopedia of Philosophy_ , the system of political representation, where elites carry out the preferences of the citizens whom they represent, establishes the legitimacy of democratic institutions and creates incentives for governments to be responsive to their citizens (Dovi 2018). While Lenz (2012) demonstrates that voters shift their policy stances based on preferences for political candidates, this does not mean that politicians can stray from their party platforms without consequence. Lawmakers still face a certain degree of pressure to support the ideological leanings of their electorate, as the system of democratic representation aims to hold political elites accountable. This represents a sort of balancing act where elites set policy preferences but are vulnerable to the demands of their constituents to maintain popular support and ensure re-election (Dovi 2018). Applying this theory to the issue of gun control, states with a liberal citizen ideology will face greater pressure to adopt more gun regulations, with the opposite effect observed among conservative states. 
+
+Second, our research question is rooted in the principle of federalism, as states are granted authority to implement gun regulations as they see fit, as long as they do not conflict with baseline federal law (Cohen & Foster, 2025). As we know, gun laws vary considerably from state to state, indicating that states may have different abilities to enforce regulations depending on administrative capacity. The ability to process background checks, for example, requires coordination between state and federal levels, which relies on government efficiency (Cohen & Foster, 2025). High-quality governments with strong administrative systems may be better equipped to carry out these laws, leading to increased gun regulations, while states with 
+
+Santucci and Villasenor 6 
+
+lower-quality governments may face limited resources or poor organization which hinders policy implementation. Together, these theories suggest that while gun policy reflects citizen ideology, this effect is conditioned by a state's institutional capacity. 
+
+# _Hypotheses_ 
+
+Based on this theoretical framework, we expect to observe two key relationships. First, we expect states with more liberal citizen ideology will adopt stricter gun control laws compared to conservative states. Second, we expect the relationship between citizen ideology and gun laws will be moderated by government quality, with the association between liberal ideology and gun laws being stronger in states with higher administrative capacity. 
+
+_Data and Methods_ 
+
+Using the states dataset in R, we conducted two cross-tabulation analyses to examine the relationship between citizen ideology, state gun control laws, and government quality. Our independent variable was citizen ideology, which was measured by taking an average of districts’ ideology scores based on interest group ratings of the ideological position of each member of Congress. This variable ranked states on a scale of 0-100, with 0 representing the most conservative and 100 being the most liberal. Our dependent variable was gun laws, which categorized states into few regulations, moderate regulations, and many regulations. Our control variable was government quality, which is based on U.S. News Best States rankings of administrative competence. This ranking analyzes states’ fiscal stability, government 
+
+digitalization, budget transparency, and state integrity grade. This variable ranked states on a scale of 1-50, with 1 representing the state with the best government quality and 50 indicating the worst quality. We then categorized citizen ideology into conservative (mean scores of 0-50) 
+
+Santucci and Villasenor 7 
+
+and liberal (mean scores of 50-100), as the median score was 47.31, close to the midpoint of the 
+
+scale. Government quality was also categorized as high-quality (states ranked 1-25) or low-quality (states ranked 26-50). 
+
+_Results_ 
+
+To test our first hypothesis, we ran a cross-tabulation comparing the percentage of strict 
+
+gun control laws across conservative and liberal 
+
+states. As the clustered bar graph displays, only 
+
+3.33% of conservative states had many regulations, 
+
+compared to 75% of liberal states, representing a 71.7 percentage point difference. We then conducted 
+
+a difference of proportions test in R that revealed these results to be statistically significant, as the p-value was 1.01e-07, which is far below the 0.05 
+
+
+
+<!-- Start of picture text -->
+Liberal States Adopt Stricter Gun Laws<br>70 75.00<br>5 60.00<br>l40<br>30 36.67<br>10 15.00<br>% few regs % moderate regs % many regs<br>Conservative @ Liberal<br><!-- End of picture text -->
+
+threshold. The 95% confidence intervals also 
+
+Table 1: Difference of Proportions Test for Hypothesis 1 
+
+excluded 0, providing further support for 
+
+Hypothesis 1. 
+
+|Diff. of|SE of|P-value|Lower|Upper|
+|---|---|---|---|---|
+|Props.|Diff.||Bound CI|Bound CI|
+|-0.717|0.135|0.0000007|-0.917|-0.517|
+
+
+
+Santucci and Villasenor 8 
+
+
+
+<!-- Start of picture text -->
+Gun Regulations: Controlling for<br>Government Quality<br>80 75.00 75.00<br>g 70<br>A<br>re 60<br>5<br>E]<br>3 50<br>I<br>lg 40<br>Ea<br>3 30<br>3<br>2 20<br>°<br>I< 10 7.69=<br>0.00<br>0<br>Conservative Liberal<br>g High-Quality Governments Low-Quality Governments<br><!-- End of picture text -->
+
+To test our second hypothesis, we ran a controlled cross-tabulation in R to examine how ideology affects gun laws at different levels of 
+
+government quality. The results showed that among liberal states, the percentage of states with strict 
+
+Table 2: Gun Regulations by Ideology 
+
+|(High-|Quality Governme|nts)|
+|---|---|---|
+||Conservative|Liberal|
+|% Few regs|23.53|12.50|
+|% Moderate|76.47|12.50|
+|regs|||
+|% Many regs|0.00|75.00|
+
+
+
+regulations remained constant 
+
+at 75% regardless of government quality, suggesting the importance of ideology in predicting policy outcomes for liberal states. Among conservative states, however, government quality was slightly more influential as 0% of high-quality conservative governments adopted many 
+
+Table 3: Gun Regulations by Ideology 
+
+regulations, compared to 7.69% of low-quality conservative governments. Additionally, conservative states were more likely to adopt moderate gun regulations when government quality was high (76.47% compared to 38.46%), while low-quality governments often had fewer regulations (53.85% compared to 23.55%). These findings indicate that government quality has a slight moderating effect among conservatives where low-quality governments are slightly 
+
+|(Low-|Quality Governme|nts)|
+|---|---|---|
+||Conservative|Liberal|
+|% Few regs|53.85|16.67|
+|% Moderate|38.46|8.33|
+|regs|||
+|% Many regs|7.69|75.00|
+
+
+
+more likely to adopt many regulations, but overall does not support Hypothesis 2 as liberal states display no variation. 
+
+Santucci and Villasenor 9 
+
+## Table 4: Difference of Proportions Test for 
+
+After running separate difference of proportions tests, we found the effect of ideology on gun laws to be similar across both high and low-quality governments, as liberal states were 75 percentage points more likely to adopt many regulations among high-quality governments, and 67.3 percentage points more likely in low-quality governments. The similarity in effect sizes indicates that government quality does not moderate the relationship between citizen ideology and gun laws, providing no support for Hypothesis 2 as liberal states consistently adopt strict regulations at 75% regardless of government quality, and conservatives rarely do so in either context. 
+
+## Hypothesis 2 (High-Quality) 
+
+|Diff of Props.|SE of Difference|P-value|
+|---|---|---|
+|-0.750|0.183|0.0000421|
+
+
+
+## Table 5: Difference of Proportions Test for 
+
+Hypothesis 2 (Low-Quality) 
+
+|Diff of Props.|SE of Difference|P-value|
+|---|---|---|
+|-0.673|0.196|0.0006|
+
+
+
+# _Discussion/Conclusion_ 
+
+Our research findings are partially consistent with our original predictions, as the results from the first cross-tabulation analysis indicate that ideology is the main driver of gun law variation across states. We observe a clear pattern among the three levels of gun regulations, with liberal states passing stricter gun regulations compared to conservative states, confirming our first hypothesis. To our surprise, government quality did not appear to moderate the association between liberal ideologies and stricter gun control laws. We originally hypothesized that states with higher-quality governments would be better equipped to implement ideological preferences into law, but the data demonstrates that ideology matters more than measures of institutional strength. 
+
+Santucci and Villasenor 10 
+
+There are several factors that can help explain why we found no support for government quality as moderating the relationship between ideology and gun laws. First, gun control is a prominent issue among American citizens due to its long history and ties to core American values including individual rights to liberty and self-defense (Pearson-Merkowitz & Dyck, 2017). Since attitudes toward gun rights are rooted in identity, states develop strong ideological commitments that drive political agendas and are less likely to be impacted by practical considerations such as administrative capacity. Second, our measures of administrative competence reflected a government’s efficacy more broadly, through analysis of a state’s fiscal stability, digitalization, and transparency, which does not capture the ability to enforce laws once they have been implemented. It is possible that future research analyzing whether gun regulations are effectively implemented and enforced, rather than simply whether strict laws exist, can better explain the role of government quality in the relationship between ideology and gun policy. 
+
+It is important to acknowledge several limitations in our research that affect the 
+
+interpretation of our results. For example, categorizing states into conservative and liberal groups by splitting the ideology scores at 50 was convenient for our cross-tabulation analysis, but may oversimplify the ideological composition of states, as scores closer to the middle were placed on opposite sides despite their relatively moderate position. Also, while our analysis included all 50 states, some cells had very small sample sizes once we split the states by ideology and controlled for government quality. For example, there were only 17 conservative states and 8 liberal states under the category of high-quality governments, and only 16 states had many gun regulations, limiting our ability to detect nuances in the relationship between ideology and gun control patterns. 
+
+Santucci and Villasenor 11 
+
+Overall, our results provided mixed support for our hypotheses. While we found no 
+
+evidence to support our expectation that government quality moderates the relationship between citizen ideology and gun laws, our findings can still be applied to the broader context of 
+
+American politics. For example, the data supports citizen ideology as a predictor of gun regulations, indicating that gun control is shaped less by administrative capacity and more by partisan dynamics, interest group pressure, and political polarization. Even when governments are efficient, policy outcomes ultimately reflect ideological struggles rather than institutional capabilities, which helps explain why gun regulation continues to be debated across the United States. Furthermore, understanding gun control through the lens of political ideology emphasizes the serious consequences of political polarization, revealing why cooperative efforts aimed at addressing gun violence remain a significant challenge. 
+
+Santucci and Villasenor 12 
+
+# References 
+
+Cohen, J. B., & Foster, M.A. (2025). _U.S. gun policy: Framework and major issues._ (CRS 
+
+- Report No. IF11038). Congressional Research Service. 
+
+https://www.congress.gov/crs-product/IF11038 
+
+- Dovi, S. (2018). Political representation. In E. N. Zalta (Ed.), _The Stanford_ 
+
+   - _Encyclopedia of Philosophy_ (Fall 2018 Edition). 
+
+https://plato.stanford.edu/archives/fall2018/entries/political-representation/. 
+
+- Hansen, M. A., and Seppälä, M. (2024). Support for gun reform in the United States: The 
+
+   - interactive relationship between partisanship and trust in the federal government. 
+
+   - _Political Behavior_ , _46_ (3), 2025-2045. 
+
+https://lmu.idm.oclc.org/login?url=https://www.proquest.com/scholarly-journals/support- 
+
+gun-reform-united-states-interactive/docview/3104277021/se-2?accountid=7418 
+
+- Lenz, G. S. (2012). _Follow the leader? How voters respond to politicians’ policies and_ 
+
+   - _performance_ . Chicago: University of Chicago Press. 
+
+- Pearson-Merkowitz, S., & Dyck, J. J. (2017). Crime and Partisanship: How Party ID Muddles 
+
+   - Reality, Perception, and Policy Attitudes on Crime and Guns. _Social Science Quarterly_ , _98_ (2), 443–454. https://www.jstor.org/stable/26612421 
+
+- Ryan, J. B, et al. (2022). When trust matters: The case of gun control. _Political Behavior_ , vol 
+
+   - _44_ (2), 725-748. 
+
+   - https://lmu.primo.exlibrisgroup.com/permalink/01LMU_INST/keordb/cdi_webofscience _primary_000546253100001CitationCount 
+
+Schaeffer, K. (2024). _Key facts about Americans and guns_ . Pew Research Center. 
+
+Santucci and Villasenor 13 
+
+https://www.pewresearch.org/short-reads/2024/07/24/key-facts-about-americans-and-gun 
+
+s/ 
+
