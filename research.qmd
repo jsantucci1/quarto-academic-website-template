@@ -25,7 +25,7 @@ subtitle: "Key questions and areas of interest:"
 
 **What I'm learning:** Running cross-tabulation analyses to discover the association between partisan gun control attitudes and the strength of gun laws, as well as the moderating effect of government quality on this relationship. 
 
-Read the full study here: [Gun Control](Gun Control Project.pdf)
+Read the full study here: [Gun Control](Gun%20Control%20Project.pdf)
 
 ## Looking forward
 
