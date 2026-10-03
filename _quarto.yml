@@ -2,6 +2,8 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - "Gun_Control_Project.pdf"
   render:
     - "*.qmd"
     - "posts/*.qmd"
@@ -23,6 +25,7 @@ website:
       - text: Career
         href: career.qmd
       - text: Travel
-        href: travel.qmd
+        href: travel.qmd 
+      
         
   
