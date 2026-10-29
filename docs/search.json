@@ -166,5 +166,33 @@
     "title": "Hypotheses",
     "section": "Table 5: Difference of Proportions Test for",
     "text": "Table 5: Difference of Proportions Test for\nHypothesis 2 (Low-Quality)\n\n\n\nDiff of Props.\nSE of Difference\nP-value\n\n\n\n\n-0.673\n0.196\n0.0006"
+  },
+  {
+    "objectID": "research_poster.html#question",
+    "href": "research_poster.html#question",
+    "title": "[Your project question]",
+    "section": "Question",
+    "text": "Question\n[State one question that both sentiment and topics help answer.]\n\nData\n[Name the source, date range, selection rule, number of documents, and what one row represents.]\n\n\nMethods\nSentiment: [Name your dictionary. Explain that you summed matched values within each document and averaged document scores by group. Report coverage.]\nTopics: [State your preprocessing, chosen k and why, and how many documents retained words for modeling. Explain that you checked keywords against original texts.]"
+  },
+  {
+    "objectID": "research_poster.html#sentiment-finding",
+    "href": "research_poster.html#sentiment-finding",
+    "title": "[Your project question]",
+    "section": "Sentiment finding",
+    "text": "Sentiment finding\n[State one finding from your sentiment figure.]\n\n[Caption: identify the corpus, groups, and what the bars measure.]"
+  },
+  {
+    "objectID": "research_poster.html#topic-finding",
+    "href": "research_poster.html#topic-finding",
+    "title": "[Your project question]",
+    "section": "Topic finding",
+    "text": "Topic finding\n[State one finding using the topic labels you developed from words and texts.]\n\n[Caption: identify the modeled corpus, k, and what the bars measure.]"
+  },
+  {
+    "objectID": "research_poster.html#check-the-original-texts",
+    "href": "research_poster.html#check-the-original-texts",
+    "title": "[Your project question]",
+    "section": "Check the original texts",
+    "text": "Check the original texts\nSentiment: [Quote a short passage with its document ID or source link. Explain whether its score captures the wording.]\nTopics: [Give keywords and a short passage that support one label. Include an ambiguous example.]\n\nLimits\nSentiment: [Describe a concrete mismatch or context the dictionary misses.]\nTopics: [Describe a mixed theme, sensitivity to a choice, or limitation of your labels.]\n\n\nAnswer to the question\n[Connect the two findings. State what this corpus can and cannot establish.]"
   }
 ]

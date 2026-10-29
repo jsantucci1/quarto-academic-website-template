@@ -3,10 +3,13 @@ project:
   type: website
   output-dir: docs
   resources: 
-    - "Gun_Control_Project.pdf"
+    - "Gun_Control_Project.pdf" 
+
+    
   render:
     - "*.qmd"
-    - "posts/*.qmd"
+    - "posts/*.qmd" 
+    
 
 # The appearance lives here. Usually leave this line alone.
 metadata-files:
@@ -26,6 +29,8 @@ website:
         href: career.qmd
       - text: Travel
         href: travel.qmd 
+      - text: Project 
+        href: research_poster.qmd
       
         
   
