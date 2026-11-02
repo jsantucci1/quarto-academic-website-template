@@ -1,168 +1,71 @@
-# Your website: start here
+# Is negative tone in Trump's 2019 posts concentrated in conflict themes?
 
-A small Quarto website for students. Five tabs, ordinary text files, and one folder for all your photos. No extra extensions, Python setup, or publication spreadsheets are needed.
+POLS 4130 · Text Analysis Project · Fall 2026
+Juliana Santucci
 
-**First goal:** replace the name, introduction, email, and two sample photos. Preview the result before changing anything else. All page text and experiences are examples to replace with your own.
+Poster: https://jsantucci1.github.io/quarto-academic-website-template/
 
-## 0. Fork this repository and open your own copy
+## Research question
 
-A **fork** is your copy of this repository on GitHub. A **clone** is the copy on your computer that you edit in RStudio.
+Is negative tone in Trump's 2019 posts concentrated in conflict-driven themes (impeachment, the Russia probe and the media) rather than in policy and diplomacy themes, and does it shift over the year?
 
-1. Sign in to GitHub and open [the course template](https://github.com/ShuyuanShen/quarto-academic-website-template).
-2. Click **Fork**, select your own account as the owner, and click **Create fork**. You can keep the repository name.
-3. On **your fork**, click **Code > HTTPS** and copy the repository URL. Check that the repository owner in the URL is your own GitHub username.
-4. In RStudio, choose **File > New Project > Version Control > Git**. Paste your fork's URL, choose where to save the project, and click **Create Project**.
-5. Continue with the preview steps below. Your future Commit and Push actions will update your own fork.
+Expectation: negativity is concentrated in the conflict theme, while endorsements and diplomacy stay positive.
 
-If **Version Control > Git** is unavailable, complete the course's Git setup first. If you already cloned your fork, just open the included `.Rproj` file.
+## Data
 
-## 1. Open and preview in RStudio
+- **Posts:** 4,469 posts from one account, January–December 2019. One row is one post. Source: Mark Huang, *Complete Trump Tweets Archive* (https://github.com/MarkHershey/CompleteTrumpTweetsArchive, commit `0de31782d856523e0fce5022a993781caf317d9f`). The course preparation selected 7,249 records dated 2019, excluded 2,498 retweets ("RT @") and 281 records with no alphabetic text after URL removal, and removed one duplicate import. URLs were removed and whitespace collapsed.
+- **Dictionary:** Hu and Liu (2004), *Mining and summarizing customer reviews*, distributed through tidytext. 6,556 words scored +1 (positive) or −1 (negative).
+- These are one account's messages, not public opinion. Source notices are in `data/SOURCE_NOTICES.txt`.
 
-1. Open **quarto-academic-website-template.Rproj** in RStudio. Keep the whole folder together.
-2. Open **index.qmd**. Use Source mode to see the short comments explaining what to edit.
-3. In the **Build** pane, click **Render Website** (called **Render** in some versions) to generate **all pages**, including the blog posts. Wait until the build finishes.
-4. Open **index.qmd** and click its **Render** button to open the preview. Check all five navigation tabs and the links to blog posts.
-5. Edit and save your pages. Use **Build > Render Website** again when checking navigation or preparing to publish. The generated pages go into **docs/**.
+## Repository contents
 
-Use a recent RStudio with Quarto support. If Render is missing, reopen the `.Rproj` and check that Quarto is available in RStudio. This starter contains no executable R code, so it needs no R packages.
-
-### Home works, but another tab says “Not Found”
-
-Rendering only **index.qmd** does not build every other page. If `docs/` is missing or incomplete, a link can point to a page that has not been generated yet.
-
-1. Reopen the included **.Rproj** if the Build pane is missing.
-2. Use **Build > Render Website** and wait for the whole site to finish rendering.
-3. Render **index.qmd** again to reopen the preview, then refresh the browser. The **Research** tab opens `research.html`; **Blog** and **Read my latest notes** open `blog.html`.
-
-For a terminal workflow, run `quarto render` from this project folder, then `quarto preview`. To view the generated site directly, open **docs/index.html** and keep the entire `docs/` folder together. See Quarto's [website workflow guide](https://quarto.org/docs/websites/#workflow).
-
-## 2. Where to change what
-
-| I want to change… | Open this |
-|---|---|
-| Site name and navigation tabs | `_quarto.yml` |
-| Home-page name, introduction, and email | `index.qmd` |
-| Academic interests and a course/research project | `research.qmd` |
-| Experience, skills, and career plans | `career.qmd` |
-| Travel photos and reflections | `travel.qmd` |
-| Blog heading and introduction | `blog.qmd` |
-| A blog post | Its `.qmd` file in `posts/` |
-| A photo | Put it in `images/`, then use its filename in the page |
-| Colors or spacing, optionally | `_design/styles.css` |
-
-Keep the navigation labels short. For example, **Research** opens the page titled **Academic interests & research**.
-
-## 3. The folder map
-
-```text
-quarto-academic-website-template/
-├── README.md                 Start here
-├── _quarto.yml               Your site name and five navigation tabs
-├── index.qmd                 Home
-├── research.qmd              Academic interests & research
-├── career.qmd                Profession & career
-├── travel.qmd                Travel & places
-├── blog.qmd                  Automatic list of blog posts
-├── posts/                    One .qmd file per blog post
-├── images/                   Your photos (plus a short image guide)
-├── _design/                  Usually leave alone: appearance and a post starter
-├── docs/                     Generated website: do not edit by hand
-├── … .Rproj                  Open this in RStudio
-└── LICENSE                   Original template's license
+```
+Week9_R.Rproj             RStudio project (open this first)
+Week9_Project_Final.R     Full analysis script (run top to bottom)
+research_poster.qmd       Quarto poster
+README.md                 This file
+data/
+  trump_tweets_2019.csv   Posts
+  bing_liu_dictionary.csv Sentiment dictionary
+  SOURCE_NOTICES.txt      Source and adaptation notes
+outputs/                  Figures used on the poster (ten PNGs)
 ```
 
-The hidden `.git` folder holds version history if you cloned this repository. RStudio may also create local folders such as `.Rproj.user` and `.quarto`. You do not need to edit them.
+## How to reproduce
 
-**Your writing lives in `.qmd` files.** `_design/` holds the appearance; `docs/` holds what Quarto builds. Editing a file in `docs/` will not update the source and may be overwritten on the next render.
+1. Install R (the analysis was run in R 4.6.1) and RStudio.
+2. Install the packages once:
+   ```r
+   install.packages(c("dplyr", "stringr", "tidytext", "ggplot2",
+                      "textstem", "topicmodels", "reshape2",
+                      "wordcloud", "slider"))
+   ```
+3. Open `Week9_R.Rproj` so the working directory is the project folder.
+4. Open `Week9_Project_Final.R` and run it one block at a time, in order, from W9-1 to W9-8. Later blocks use objects created by earlier ones.
+5. The script saves the figures to `outputs/`. The word cloud is saved by hand: run the `wordcloud()` line, then Plots > Export > Save as Image as `outputs/wordcloud.png`.
+6. Open `research_poster.qmd` and click Render to build `research_poster.html`. The poster reads the PNGs from `outputs/`.
 
-## 4. Make the home page yours
+The topic model uses a fixed method and seed (Gibbs sampling, seed 4130), so the topics reproduce. Block W9-5B refits other values of k for comparison; it does not change the main k = 3 model.
 
-1. In `_quarto.yml`, replace **Your Name** and the site description. Leave the `project` and `metadata-files` sections as they are.
-2. In `index.qmd`, replace the name, short subtitle, introduction, and `you@example.com`.
-3. Replace the home photo as described below.
-4. Update the short sections beneath the introduction, then render.
-5. Edit the other pages and replace every sample experience before sharing the site.
+## Methods
 
-Most edits are ordinary text. Keep the opening and closing `---` lines at the top of each page; the lines between them set its title and other options. Keep indentation in `_quarto.yml`. On the home page, keep the `:::` layout lines in place while changing the words between them. Text between `<!--` and `-->` is a helpful comment and does not appear on the website.
+**Sentiment.** Posts are split into words (original forms, stopwords kept). Each word matching the dictionary adds +1 or −1, and the sum is the post's net score. Group averages weight each post equally. Only about 9–13% of words per post match the dictionary on average. A negation rule flips a dictionary word when "not," "no" or "never" appears in the previous two words. Target tone sums negation-adjusted scores within four words of "democrats," "media" or "china."
 
-## 5. Replace or add a photo
+**Topics.** Words are lemmatized and SMART stopwords are removed. LDA with k = 3 is fit to the document-term matrix (4,441 posts; 28 posts had no retained words and were excluded from topic modeling). I compared k = 2, 3 and 4 and kept k = 3: k = 2 merged endorsement/border posts with diplomacy/economy posts, and k = 4 split the endorsement/border group further, but I could support only three themes with original posts. Topic labels come from the top words and the highest-weight posts for each topic. Each post is assigned to its strongest topic for the shares and sentiment-by-topic results.
 
-The two included photos came from the original template:
+## Main findings
 
-- **images/profile.jpg**: home page (currently flowers).
-- **images/travel.jpg**: travel page (currently Niagara Falls).
+- Impeachment/Russia/media posts average a net score of −0.84 and are negative in all 12 months (−0.36 in November to −1.39 in March). Endorsements/border/jobs (+0.80) and diplomacy/trade/economy (+0.99) are positive in all 12 months.
+- The impeachment/media theme grows from roughly 25–31% of posts in early and mid-year months to about 44% in September–December, while becoming less negative.
+- Handling negation raised the corpus mean from 0.252 to 0.299 and changed the score of 312 posts.
+- Tone within four words of a target: media −0.84, Democrats −0.32, China +0.11.
 
-The easiest replacement is your own image with the **same filename and extension**. If you prefer a different filename, update the page's image path. JPG and PNG are good starting choices. Names such as `campus-walk.jpg` are easier to use than names with spaces. Export a phone's HEIC photo as JPG or PNG first.
+## Limitations
 
-In a main page:
+- The dictionary misses sarcasm, quotations and who a word is about. Only about 10% of words match.
+- The negation rule looks back two words and can misfire. Target windows measure tone near a mention, not about it, and match only exact words.
+- Topic 3 is loose, k is a judgment call, and the sentiment gap between topics is partly circular because negative dictionary words ("fake," "bad") are keywords of the negative topic.
+- Evidence posts are top-weighted or most extreme examples, not typical ones. Results describe how a dictionary scores one account's posts, not the president's beliefs, public reaction or causes.
 
-```markdown
-![](images/campus-walk.jpg){fig-alt="Students walking across campus"}
-```
-
-Inside a post in `posts/`:
-
-```markdown
-![](../images/campus-walk.jpg){fig-alt="Students walking across campus"}
-```
-
-The `fig-alt` text describes the image for someone who cannot see it. Replace that description as well as the filename. To show a caption below the photo, put the caption between the empty `[]` brackets. More examples are in **images/README.md**.
-
-For this local workflow, you **copy** images into `images/`; there is no separate website upload form. When you later commit and push the source and rendered site, the images go with them.
-
-## 6. Write a new blog post
-
-1. Open **_design/new-post.qmd** in RStudio.
-2. Choose **File > Save As**. Save it inside **posts/** with a new name, such as **my-first-post.qmd**. Keep the `.qmd` extension.
-3. Change the title, date (`YYYY-MM-DD`), and one-sentence description at the top.
-4. Replace the sample paragraphs with your writing. Add a photo if useful.
-5. Save and **render the whole website** from the Build pane. The Blog list updates automatically, newest first. You do not need to add a link manually.
-
-To remove a sample post, delete that `.qmd` file from `posts/` and render the website again. To keep a work-in-progress post private, keep its file **outside this repository** until ready to share; hiding a link is not the same as keeping its source private.
-
-## 7. A little Markdown is enough
-
-```markdown
-## A section heading
-
-An ordinary paragraph with **bold words** or *italic words*.
-
-- One point
-- Another point
-
-[Link text](https://example.com)
-```
-
-You can also use RStudio's Visual editor for ordinary writing. Source mode is useful when following the comments or changing image filenames.
-
-To add a resume later, create a `files/` folder, put `resume.pdf` there, and add `[My resume](files/resume.pdf)` to `career.qmd`. You do not need a resume file to use this template.
-
-## 8. Publish later with RStudio and GitHub
-
-Preview locally first. When your content is ready and your repository is connected to GitHub:
-
-1. In RStudio, **render the whole website**. Confirm the generated `docs/` pages look right.
-2. In the Git pane, inspect your source changes **and the updated docs/** files, stage them, Commit, then Push. Include new images and the supplied `.nojekyll` file. This publishing workflow intentionally tracks `docs/`.
-3. On your own GitHub repository, open **Settings > Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select **main** and **/docs**, then Save.
-4. Open the website address GitHub provides after deployment finishes.
-5. Optionally, uncomment `site-url` in `_quarto.yml` and paste that exact address. Render, commit, and push again.
-
-Future updates use the same **edit, render, commit, push** sequence. Commit and Push alone do not render your changes. A normal repository produces a URL ending in its repository name; a repository named exactly `YOUR-USERNAME.github.io` uses that account's root website address. Follow any repository visibility or account-plan requirements shown by GitHub Pages.
-
-If you rename or delete a published page or post, remove its old generated `.html` from `docs/` (or delete `docs/` and render the whole website to rebuild it) before pushing. This avoids leaving an old page accessible at its previous address.
-
-## Quick checks before sharing
-
-- Your name, email, and experiences replace the examples.
-- All five tabs and the blog-post links work.
-- Photos display and have useful descriptions.
-- You have checked both a wide browser window and a narrow/mobile view.
-- You rendered the whole website after the final edit.
-
-## About this adaptation
-
-Adapted for an introductory student website from [Gang He's Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template). The original MIT license is retained in `LICENSE`. The original example photos are kept only as easy-to-replace samples.
-
-The starter uses built-in Quarto navigation and blog listings. Advanced publication generation, group directories, icon extensions, analytics, and external widget scripts have been removed.
-
-References: [Quarto websites](https://quarto.org/docs/websites/), [automatic blog listings](https://quarto.org/docs/websites/website-listings.html), and [publishing to GitHub Pages](https://quarto.org/docs/publishing/github-pages.html).
+## Notes on AI assistance
+- I used Claude to help correct errors in the code, but I ran all code myself and checked the output against the original posts. 
