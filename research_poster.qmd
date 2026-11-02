@@ -1,0 +1,149 @@
+---
+title: "Is negative tone in Trump's 2019 posts concentrated in conflict themes, and does it shift over the year?"
+subtitle: "Text Analysis Project Showcase · November 3, 2026"
+author: "Juliana Santucci · POLS 4130 · Fall 2026"
+format:
+  html:
+    page-layout: custom
+    embed-resources: true
+    toc: false
+    theme: flatly
+---
+
+<style>
+body { margin: 0 auto; padding: 40px 48px; max-width: 1500px; box-sizing: border-box; background: #f7f3ea; color: #17233b; font-family: "Avenir Next", Arial, sans-serif; }
+#quarto-content { max-width: 100%; }
+#title-block-header { border-bottom: 6px solid #c92a3d; margin-bottom: 30px; }
+h1.title { font-size: 48px; font-weight: 700; line-height: 1.1; }
+.subtitle { font-size: 24px; }
+.poster { display: grid; grid-template-columns: 1fr 1.6fr 1fr; gap: 36px; font-size: 21px; line-height: 1.4; }
+.poster h2 { font-size: 28px; color: #c92a3d; margin-top: 0; }
+.poster h3 { font-size: 23px; color: #17233b; }
+.poster ul { padding-left: 22px; }
+.poster .cell { margin: 12px 0; }
+.poster img, .support img, .hero img { width: 100%; height: auto; display: block; }
+.hero { margin: 30px 0; font-size: 21px; line-height: 1.4; }
+.hero h2 { font-size: 28px; color: #c92a3d; margin-top: 0; }
+.hero img { max-width: 1100px; margin: 0 auto; }
+.support { margin-top: 30px; font-size: 19px; line-height: 1.4; }
+.support h2 { font-size: 28px; color: #c92a3d; margin-top: 0; }
+.support-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; }
+.small-source { margin-top: 26px; font-size: 17px; border-top: 1px solid #ddd9d0; padding-top: 16px; }
+@media(max-width: 900px) { .poster { display: block; } .poster > div { margin-bottom: 28px; } .support-grid { display: block; } h1.title { font-size: 36px; } body { padding: 20px; } }
+</style>
+
+::: {.poster}
+::: {.column-one}
+## Question
+
+Is negative tone in Trump's 2019 posts concentrated in conflict themes (impeachment, the Russia probe, the media) rather than policy and diplomacy themes, and does it shift over the year?
+
+*Expectation:* I expected negativity to be concentrated in the conflict theme, with endorsements and diplomacy staying positive.
+
+### Data
+
+The data are 4,469 posts from one account, written between January and December 2019. Each row is one post, and I kept every post that contained text. These are one account's messages, not a measure of public opinion.
+
+### Methods
+
+**Sentiment:** I scored each post with the Bing-Liu dictionary, which labels 6,556 words as positive (+1) or negative (−1) and adds the labels up for each post. About 10% of the words in the posts match the dictionary. To handle negation, I flipped a word's score when "not," "no" or "never" appeared within the two words before it. For target sentiment, I scored the words within four words of each target.
+
+**Topics:** I fit a topic model (LDA with Gibbs sampling and random seed 4130) with three topics, using lemmatized words with stopwords removed. The model used 4,441 posts, because 28 posts had no words left after cleaning. With two topics, the endorsement and border posts merged with the diplomacy and economy posts. With four topics, the endorsement and border posts split further, but I could support only three themes with original posts.
+:::
+
+::: {.column-two}
+## Topic finding
+
+I labeled three themes using their top words and the original posts. Impeachment, the Russia probe and media attacks make up 36.8% of posts when each post is assigned to its strongest topic. Endorsements, border and jobs make up 35.6%, and diplomacy, trade and economy make up 27.6%.
+
+![](outputs/topic_words.png){fig-alt="Top six words for each of three topics, with labels."}
+
+The top six words in each topic. The bars show how likely a word is within that topic (three-topic model, 4,441 posts).
+
+![](outputs/topic_share_month.png){fig-alt="Share of each month's posts by theme, 2019."}
+
+The impeachment and media theme makes up about 25–28% of posts in January and February, rises to about 39% in March and April, falls back to about 30–33% from May through August, and reaches about 44% from September through December.
+
+## Sentiment finding
+
+![](outputs/topic_sentiment_month.png){fig-alt="Mean net dictionary score by topic and month, 2019."}
+
+The impeachment and media theme is negative in all 12 months, ranging from −0.36 in November to −1.39 in March. The other two themes are positive in all 12 months. March was the only month with a negative average across all posts (−0.13), which fits with this theme being both the largest and the most negative that month.
+:::
+
+::: {.column-three}
+## Check the original texts
+
+**A useful example (post 675, net score −7):** This post is about the media and the Russia probe. The words "corrupt," "fake" and "enemy" capture real hostility. The word "collusion" names an allegation, so the score overstates how strong the tone is. The negation rule correctly flipped "No Collusion," which changed the score to −5.
+
+**A misleading example (post 607, net score −6):** Most of the scored words ("dark," "stain" and "worse") come from a quotation about John McCain, not from the media.
+
+**Example posts for each topic:** For endorsements, border and jobs, post 4127 is an endorsement and post 435 is about the border (it mixes two ideas). For impeachment, the Russia probe and media attacks, post 3588 is the "Scam" post and post 1069 is about the media. For diplomacy, trade and economy, post 3938 is about a Federal Reserve meeting and post 321 is about the North Korea summit. These posts are the most strongly weighted or the most extreme, so they are not typical.
+
+### Limits
+
+**Sentiment:** Only about 10% of words match the dictionary. The dictionary misses sarcasm, quotations and who a word is about. The negation and target windows are crude, and tone near a mention is not necessarily tone about it.
+
+**Topics:** The diplomacy topic is loose, and the number of topics is a judgment call. The tone gap between topics is also partly circular, because "fake" and "bad" are both keywords of the negative topic and negative dictionary words.
+
+### Answer to the question
+
+Negative tone is concentrated, not evenly spread. Posts about impeachment, the Russia probe and the media are negative in every month, and posts about endorsements, the border and diplomacy are positive in every month. The negative theme grows in the fall, jumping from about 30% of posts in August to about 44% in September, and its average score is less negative in November (−0.36) than in March (−1.39). These results describe how a dictionary scores one account's posts. They do not show the president's beliefs, public reaction or why the pattern changes.
+:::
+:::
+
+::: {.hero}
+## Where is the negative tone?
+
+Negative tone is concentrated in one theme. Posts on impeachment, the Russia probe and the media average −0.84 per post, while posts on endorsements and the border (+0.80) and on diplomacy and the economy (+0.99) are positive.
+
+![](outputs/topic_sentiment.png){fig-alt="Mean net dictionary score by topic."}
+
+Average net dictionary score per post, by each post's strongest topic (4,441 modeled posts, 2019).
+:::
+
+::: {.support}
+## Supporting results
+
+::: {.support-grid}
+::: {.cell-item}
+![](outputs/word_freq.png){fig-alt="Bar chart of the 15 most frequent lemmas."}
+
+The most frequent words are "great" (1,105 uses), "democrat" (663) and "president" (596).
+:::
+
+::: {.cell-item}
+![](outputs/wordcloud.png){fig-alt="Word cloud of frequent lemmas."}
+
+Word size shows how often a word appears, not its tone.
+:::
+
+::: {.cell-item}
+![](outputs/sentiment.png){fig-alt="Mean net dictionary score by month, 2019."}
+
+Across all posts, every month is slightly positive except March (−0.13).
+:::
+
+::: {.cell-item}
+![](outputs/sentiment_negation.png){fig-alt="Mean net score before and after negation handling."}
+
+Handling negation raised the average score from 0.252 to 0.299 and changed 312 posts.
+:::
+
+::: {.cell-item}
+![](outputs/sentiment_target.png){fig-alt="Mean net score near media, democrats and china."}
+
+Within four words of each target, the average tone is −0.84 for the media, −0.32 for Democrats and +0.11 for China.
+:::
+
+::: {.cell-item}
+![](outputs/topics.png){fig-alt="Share of posts whose strongest topic is each theme."}
+
+The share of modeled posts whose strongest topic is each theme.
+:::
+:::
+:::
+
+::: {.small-source}
+**Sources:** Mark Huang, *Complete Trump Tweets Archive* (<https://github.com/MarkHershey/CompleteTrumpTweetsArchive>, commit 0de31782d856523e0fce5022a993781caf317d9f), 2019 records prepared by the course. Dictionary: Hu and Liu (2004), *Mining and summarizing customer reviews*, via tidytext.
+:::
